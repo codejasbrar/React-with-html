@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages';
 import About from './pages/About';
 import Teams from './pages/team';
+import Services from './pages/Services';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Routes>
         <Route path='/' exact component={Home} />
         <Route path='/about' element={<About />} exact/>
-        <Route path='/team' element={<Teams />} exact/>        
+        <Route path='/team' element={<Teams />} exact/> 
+        <Route path='/services' element={<Services />} exact/>        
       </Routes>
     </Router>
   );
