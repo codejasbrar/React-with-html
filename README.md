@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# How to run the react app on your local system
 
 This project was created by Jas Brar
 
