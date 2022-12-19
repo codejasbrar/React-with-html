@@ -2,8 +2,7 @@ import './About.css';
 const About = () => {
 return (
 	<div>
-	
-	<h1>About Page</h1>
+	 <h1>About Page</h1>
     <div className="container">
       <div className="image">
         <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" />
