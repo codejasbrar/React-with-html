@@ -2,7 +2,10 @@ import {BrowserRouter as Router, Link} from 'react-router-dom';
 import './Services.css';
 const Services = () => {
 return (
-	 <div className="grid services">
+    <div className='services'>
+        	 <h1>Services Page</h1>
+
+	 <div className="grid ">
   <article>
     <img src="https://www.quackit.com/pix/samples/23m.jpg" alt="Sample photo"/>
     <div className="text">
@@ -54,6 +57,8 @@ return (
     </div>
   </article>
 	</div>
+    
+    </div>
     
 );
 };
